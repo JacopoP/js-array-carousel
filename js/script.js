@@ -19,11 +19,9 @@ document.getElementById("next").addEventListener("click",
         if(n==0){
             document.getElementById("prev").classList.remove("hide");
         }
-        if(n<5){
-            arr[n].classList.remove("active");
-            n++;
-            arr[n].classList.add("active");
-        }
+        arr[n].classList.remove("active");
+        n++;
+        arr[n].classList.add("active");
         if(n==4){
             document.getElementById("next").classList.add("hide");
         }
@@ -35,11 +33,9 @@ document.getElementById("prev").addEventListener("click",
         if(n==4){
             document.getElementById("next").classList.remove("hide");
         }
-        if(n<5){
-            arr[n].classList.remove("active");
-            n--;
-            arr[n].classList.add("active");
-        }
+        arr[n].classList.remove("active");
+        n--;
+        arr[n].classList.add("active");
         if(n==0){
             document.getElementById("prev").classList.add("hide");
         }
