@@ -13,6 +13,11 @@
 
 img{
     height: 100%;
+    display: none;
+}
+
+img.active{
+    display: inline-block;
 }
 
 button{
@@ -39,4 +44,8 @@ button#next{
 
 button:hover{
     opacity: 1;
+}
+
+.hide{
+    display: none;
 }
